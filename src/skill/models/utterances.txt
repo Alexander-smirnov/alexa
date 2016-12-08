@@ -23,3 +23,4 @@ AnalyzeTheBodyIntent investigate the body
 SearchTheBodyIntent search the body
 SearchTheBodyIntent push the body
 SearchTheBodyIntent move the body
+MournTrilbyIntent Mourn Trilby

@@ -37,4 +37,7 @@ module.exports = {
 	"SearchTheBodyIntent": function ( intent, session, request, response ) {
 		processUtterance( intent, session, request, response, "search the body" )
 	},
+	"MournTrilbyIntent": function ( intent, session, request, response ) {
+		processUtterance( intent, session, request, response, "Mourn Trilby" )
+	},
 }

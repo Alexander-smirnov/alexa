@@ -1,7 +1,7 @@
 'use strict'
 
 var dynamo = require('./dynamoDB')
-var respond = require('./respond')
+//var respond = require('./respond')
 var skill = require('../index').skill
 var utils = require('./utils')
 

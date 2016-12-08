@@ -52,7 +52,13 @@ function buildResponse ( scene ){
     },
 
     // reprompt is played if there's 7 seconds of silence
-
+    repromptOutput: {
+      type: AlexaSkill.SPEECH_OUTPUT_TYPE.SSML,
+      ssml: '<speak>' +
+            '<break time="200ms"/>' +
+            voicePrompt +
+            '</speak>'
+    },
 
     cardTitle:  scene.card.title || config.skillName,
     cardOutput: scene.card.text.trim() +

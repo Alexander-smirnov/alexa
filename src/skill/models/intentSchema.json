@@ -38,6 +38,9 @@
     },
     {
       "intent": "SearchTheBodyIntent"
+    },
+    {
+      "intent": "MournTrilbyIntent"
     }
   ]
 }

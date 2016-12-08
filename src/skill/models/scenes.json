@@ -6,7 +6,7 @@
     "readPreviousOptions": false,
     "card": {
       "title": "Welcome",
-      "text": "Welcome to my Alexa Skill. To learn how to use this skill, say \"Help\".",
+      "text": "Let's go",
       "prompt": "",
       "image": {
         "largeImageUrl": null,
@@ -14,8 +14,8 @@
       }
     },
     "voice": {
-      "intro": "Welcome to my Alexa Skill. To learn how to use this skill, say \"Help\".",
-      "prompt": "When you are ready, say \"Begin\"."
+      "intro": "Let's go",
+      "prompt": ""
     },
     "options": [
       {
@@ -44,6 +44,12 @@
           "search the body",
           "push the body",
           "move the body"
+        ]
+      },
+      {
+        "sceneId": 5,
+        "utterances": [
+          "Mourn Trilby"
         ]
       }
     ]
@@ -128,6 +134,26 @@
     },
     "voice": {
       "intro": "You shouldn’t touch the body before the police get here",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 5,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "image": {
+        "smallImageUrl": null,
+        "largeImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You enter a room. What would you like to do?",
       "prompt": ""
     },
     "options": []
