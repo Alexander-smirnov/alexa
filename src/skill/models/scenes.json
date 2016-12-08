@@ -1,0 +1,135 @@
+[
+  {
+    "id": 0,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "Welcome to my Alexa Skill. To learn how to use this skill, say \"Help\".",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Welcome to my Alexa Skill. To learn how to use this skill, say \"Help\".",
+      "prompt": "When you are ready, say \"Begin\"."
+    },
+    "options": [
+      {
+        "sceneId": 1,
+        "utterances": [
+          "look at the body",
+          "look at the Trilby"
+        ]
+      },
+      {
+        "sceneId": 2,
+        "utterances": [
+          "get the body"
+        ]
+      },
+      {
+        "sceneId": 3,
+        "utterances": [
+          "analyze the body",
+          "investigate the body"
+        ]
+      },
+      {
+        "sceneId": 4,
+        "utterances": [
+          "search the body",
+          "push the body",
+          "move the body"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": true,
+    "card": {
+      "title": "Bodylook",
+      "text": "It’s Trilby. He’s definitely dead. He’s wearing a silk dressing down over pajamas and slippers.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "It’s Trilby. He’s definitely dead. He’s wearing a silk dressing down over pajamas and slippers.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 2,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": true,
+    "card": {
+      "title": "Bodyget",
+      "text": "Trilby was a big guy. He won’t fit in your inventory.",
+      "prompt": "test",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Trilby was a big guy. He won’t fit in your inventory.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 3,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": true,
+    "card": {
+      "title": "Bodyanalyze",
+      "text": "Trilby was a big man - over six feet tall. His comb-over is disheveled -- you knew he was secretly bald under that. He’s also been stabbed. There is a dagger high in his back. From the way the body facing, he may have been trying to get to the door. Next to his right hand is a crumpled piece of paper.",
+      "prompt": "test",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Trilby was a big man - over six feet tall. His comb-over is disheveled -- you knew he was secretly bald under that. He’s also been stabbed. There is a dagger high in his back. From the way the body facing, he may have been trying to get to the door. Next to his right hand is a crumpled piece of paper.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 4,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": true,
+    "card": {
+      "title": "Bodysearch",
+      "text": "You should not touch the body before the police get here",
+      "prompt": "test",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You shouldn’t touch the body before the police get here",
+      "prompt": ""
+    },
+    "options": []
+  }
+]
